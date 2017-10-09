@@ -1,0 +1,192 @@
+body {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto Slab", serif;
+	font-size: .9375em;
+	color: #0d0d0d;
+}
+
+#page-wrapper {
+	max-width: 61.3333em;
+}
+
+h1 {
+	font-family: Raleway, sans-serif;
+	font-size: 1.8em;
+	margin: .5555em 0;
+}
+
+p {
+	text-align: justify;
+	margin: 0;
+}
+
+section {
+	margin-bottom: 3.3em;
+}
+
+section h1 {
+	margin-left: .926em;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+header .title-heading-wrapper {
+	order: 2;
+	margin-top: -5.75em;
+}
+
+header h1.title-heading {
+	margin: 0;
+	background: #fff;
+	font-size: 2.3em;
+	text-transform: uppercase;
+	display: inline-block;
+	float: right;
+	padding: .55em 1.2em;
+	margin-right: 1.4em
+}
+
+header h1.title-heading span {
+	display: inline-block;
+}
+
+header h1.title-heading span::first-letter {
+	font-size: 125%;
+}
+
+header img.title-img {
+	order: 1;
+	width: 100%;
+}
+
+#biography {
+	margin-top: 3.3em;
+}
+
+#biography p {
+	width: 71%;
+	display: inline-block;
+}
+
+#biography img.signatures {
+	width: 25%;
+	float: right;
+	margin-top: -.4em;
+	margin-right: -.1em;
+}
+
+#quotes:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#quotes blockquote {
+	margin: 0;
+	border: .2em solid #cfcfcf;
+	padding: 1.2em;
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#quotes blockquote.first-quote {
+	width: 36.7%;
+}
+
+#quotes blockquote.second-quote {
+	width: 58.7%;
+	float: right;
+}
+
+#quotes blockquote::before {
+	content: "“";
+	width: .8em;
+	height: .8em;
+	font-size: 3.3333em;
+	font-family: Raleway;
+	background: #fff;
+	text-align: center;
+	padding-top: .07em;
+	box-sizing: border-box;
+	position: absolute;
+	left: -.4em;
+	top: -.4em;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 3.3em;
+	margin-top: 4.5em;
+}
+
+footer small {
+	border-top: .0625em solid #909090;
+	font-size: .9375em;
+	padding: .65em 3.375em;
+}
+
+@media (max-width: 62em) {
+	body {
+		padding: 0 3.4%;
+		font-size: .875em;
+	}
+}
+
+@media (max-width: 52em) {
+	#biography img.signatures { display: none; }
+	#biography p { width: 100%; }
+}
+
+@media (max-width: 55.6em) {
+	#quotes blockquote.first-quote { width: 35%; }
+	#quotes blockquote.second-quote { width: 60.4%; }
+}
+
+@media (max-width: 53.8em) {
+	#quotes blockquote.first-quote { width: 33.75%; }
+	#quotes blockquote.second-quote { width: 61.65%; }
+}
+
+@media (max-width: 46.5625em) {
+	#quotes blockquote.first-quote, #quotes blockquote.second-quote { width: 100%; }
+	#quotes blockquote.second-quote { margin-top: 1.2em; }
+}
+
+@media (max-width: 39.4em) {
+	header .title-heading-wrapper { margin-top: -5.05em; }
+	header h1.title-heading { font-size: 2em; }
+
+	footer small {
+		padding: .65em 0;
+		display: inline-block;
+	}
+
+	footer, footer small { width: 100%; }
+}
+
+@media (max-width: 30em) {
+	header .title-heading-wrapper { margin-top: -3.75em; }
+	header h1.title-heading { font-size: 1.5em; }
+}
+
+@media (max-width: 24em) {
+	body {
+		padding: 0 4%;
+		font-size: .8125em;
+	}
+}
+
+@media (max-width: 21em) {
+	#quotes blockquote::before { font-size: 3em; }
+}
+
+@media (max-width: 20em) {
+	header .title-heading-wrapper { margin-top: -2.4em; }
+	header h1.title-heading { font-size: 1em; }
+	body { padding: 0 6%; }
+}
