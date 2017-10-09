@@ -1,3 +1,3 @@
 # FCC: Tribute Page
 Responsive Tribute Page - Mark Twain  
-live demo: https://codepen.io/Snip3r/pen/EwLaMw
+Live demo: https://codepen.io/Snip3r/pen/EwLaMw
