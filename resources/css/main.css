@@ -1,18 +1,15 @@
 body {
 	display: flex;
 	justify-content: center;
-	font-family: "Roboto Slab", serif;
-	font-size: .9375em;
+	font: .9375em "Roboto Slab", serif;
 	color: #0d0d0d;
+	line-height: 1.4;
 }
 
-#page-wrapper {
-	max-width: 61.3333em;
-}
+#page-wrapper { max-width: 61.3333em; }
 
 h1 {
-	font-family: Raleway, sans-serif;
-	font-size: 1.8em;
+	font: 1.8em Raleway, sans-serif;
 	margin: .5555em 0;
 }
 
@@ -21,13 +18,9 @@ p {
 	margin: 0;
 }
 
-section {
-	margin-bottom: 3.3em;
-}
+section { margin-bottom: 3.3em; }
 
-section h1 {
-	margin-left: .926em;
-}
+section h1 { margin-left: .926em; }
 
 header {
 	display: flex;
@@ -40,32 +33,25 @@ header .title-heading-wrapper {
 }
 
 header h1.title-heading {
-	margin: 0;
 	background: #fff;
 	font-size: 2.3em;
 	text-transform: uppercase;
 	display: inline-block;
 	float: right;
 	padding: .55em 1.2em;
-	margin-right: 1.4em
+	margin: 0 1.4em 0 0;
 }
 
-header h1.title-heading span {
-	display: inline-block;
-}
+header h1.title-heading span { display: inline-block; }
 
-header h1.title-heading span::first-letter {
-	font-size: 125%;
-}
+header h1.title-heading span::first-letter { font-size: 125%; }
 
 header img.title-img {
 	order: 1;
 	width: 100%;
 }
 
-#biography {
-	margin-top: 3.3em;
-}
+#biography { margin-top: 3.3em; }
 
 #biography p {
 	width: 71%;
@@ -75,8 +61,7 @@ header img.title-img {
 #biography img.signatures {
 	width: 25%;
 	float: right;
-	margin-top: -.4em;
-	margin-right: -.1em;
+	margin: -.4em -.1em 0 0;
 }
 
 #quotes:after {
@@ -94,9 +79,7 @@ header img.title-img {
 	display: inline-block;
 }
 
-#quotes blockquote.first-quote {
-	width: 36.7%;
-}
+#quotes blockquote.first-quote { width: 36.7%; }
 
 #quotes blockquote.second-quote {
 	width: 58.7%;
@@ -107,8 +90,7 @@ header img.title-img {
 	content: "“";
 	width: .8em;
 	height: .8em;
-	font-size: 3.3333em;
-	font-family: Raleway;
+	font: 3.3333em Raleway;
 	background: #fff;
 	text-align: center;
 	padding-top: .07em;
@@ -120,8 +102,7 @@ header img.title-img {
 
 footer {
 	text-align: center;
-	margin-bottom: 3.3em;
-	margin-top: 4.5em;
+	margin: 4.5em 0 3.3em 0;
 }
 
 footer small {
